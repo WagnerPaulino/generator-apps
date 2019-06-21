@@ -16,7 +16,8 @@ def getDiretoryNameReactjs(projectName) -> list:
 	projectName+"/src/index.js",
 	projectName+"/src/reducers/index.js",
 	projectName+"/src/reducers/questionario-reducer.js",
-	projectName+"/src/serviceWorker.js"]
+	projectName+"/src/serviceWorker.js",
+	projectName+"/src/utils/utils.js"]
 
 def getDiretoryTemplatesNameReactjs() -> list:
 	return [
@@ -36,4 +37,5 @@ def getDiretoryTemplatesNameReactjs() -> list:
 	"template-reactjs/src/index.js",
 	"template-reactjs/src/reducers/index.js",
 	"template-reactjs/src/reducers/questionario-reducer.js",
-	"template-reactjs/src/serviceWorker.js"]
+	"template-reactjs/src/serviceWorker.js",
+	"template-reactjs/src/utils/utils.js"]
