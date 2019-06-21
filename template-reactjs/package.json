@@ -1,6 +1,6 @@
 {
-  "name": "{{nameProject}}",
-  "version": "{{version}}",
+  "name": "<=nameProject=>",
+  "version": "<=version=>",
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
