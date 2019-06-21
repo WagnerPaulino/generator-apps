@@ -1,0 +1,21 @@
+def getDiretoryNameReactjs(projectName) -> list:
+	return [
+    projectName+"/.gitignore",
+	projectName+"/README.md",
+	projectName+"/package.json",
+	projectName+"/public/favicon.ico",
+	projectName+"/public/index.html",
+	projectName+"/public/manifest.json",
+	projectName+"/src/App.css",
+	projectName+"/src/App.js",
+	projectName+"/src/App.test.js",
+	projectName+"/src/actions/index.js",
+	projectName+"/src/actions/types.js",
+	projectName+"/src/containers/questionario-data.js",
+	projectName+"/src/containers/questionario-edit.js",
+	projectName+"/src/index.css",
+	projectName+"/src/index.js",
+	projectName+"/src/logo.svg",
+	projectName+"/src/reducers/index.js",
+	projectName+"/src/reducers/questionario-reducer.js",
+	projectName+"/src/serviceWorker.js"]
