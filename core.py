@@ -6,7 +6,6 @@ def applyParams(keyArgs: dict, template: str):
         if(d.find('{{') > -1):
             p = keyArgs.get(d[d.index('{{') + 2:d.index('}}')])
             d = d.replace(d[d.index('{{'):d.index('}}')+2],str(p))
-            print(d)
     return d
 
 def create_files(pathToFile: str,template: str, variables: dict):
